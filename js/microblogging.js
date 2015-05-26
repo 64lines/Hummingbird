@@ -108,6 +108,7 @@ function eventList() {
 		}
 
 		printAllLogs();
+		initialSetup();
 	});
 
 	$(".drop-all-log").click(function() {
