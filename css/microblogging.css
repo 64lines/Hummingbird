@@ -1,0 +1,30 @@
+.container {
+	padding-top: 10px;
+	text-align: center;
+	max-width: 350px;
+}
+
+.log-container {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.short-panel {
+	max-width: 40%;
+}
+
+.right {
+	text-align: right;
+}
+
+.center {
+	text-align: center;
+}
+
+.left {
+	text-align: left;
+}
+
+.chrip-field {
+	padding-bottom: 10px;
+}

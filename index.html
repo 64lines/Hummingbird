@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<!--
+Application: Hummingbird
+Description: Make your own private tweets in your local storage.
+-->
+<html>
+	<head>
+		<title>Hummingbird</title>
+		<!-- jQuery 2.0.3 -->
+		<script type="text/javascript" src="./js/jquery-2.0.3.min.js"></script>
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="./css/bootstrap.min.css">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="./css/bootstrap-theme.min.css">
+
+		<link rel="stylesheet" href="./css/microblogging.css">
+
+		<!-- Latest compiled and minified JavaScript -->
+
+		<script src="./js/microblogging.js"></script>
+	</head>
+	<body>
+		<div class="container form-group short-panel">
+			<h2 class="text-muted">Hummingbird</h2>
+			<br>
+			<div class="chrip-field">
+				<h4 class="left text-muted">What's going on?</h4>
+				<textarea id="inputContent" placeholder="Write here..." class="form-control" rows="2"></textarea>
+			</div>
+
+			<div class="button-section right">
+				<a class="btn btn-default save-chirp" href="#" role="button">
+					<i class="glyphicon glyphicon-fire"></i> Post
+				</a>
+			</div>
+			<div class="entries">
+				<h4 class="left">Home</h4>
+				<hr>
+				<div class="log-container left list-group"></div>
+			</div>
+		</div>
+	</body>
+</html>
